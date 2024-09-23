@@ -1,0 +1,55 @@
+.products-container {
+     display: flex; 
+     gap: 20px; 
+     margin: 20px;
+     padding:50px;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width: 320px !important ;
+    height: 410px;
+}
+
+
+.card img {
+    width: 100%;
+    height:270px;
+   object-fit:contain;
+}
+
+.card img button{
+   max-width: 150px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+}
+
+.remove-item-btn , .add-item-btn{
+    width:20px ;
+    height: 30px;
+   border:1px solid gray;
+  position: relative;
+}
+
+.remove-item-btn p , .add-item-btn p{
+    color:rgb(176, 0, 0) !important;
+    font-weight:500;
+    font-size: 20px;
+    position: absolute;
+    top:-4px;
+    left:10px;
+}
+
+.cart-count{
+   font-size: 25px;
+}
